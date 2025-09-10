@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <title>Streaming List</title>
+  <meta name=description content="Construct a long HTML list response in Service Worker and stream it into the browser.">
+  <meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name=theme-color content="#122111">
+</head>
+<body>
+  <h1>Streaming List</h1>
+  <p>Construct a long HTML list response in Service Worker and stream it into the browser.</p>
+  <script>
+    navigator.serviceWorker.register('/sw.js')
+  </script>
+  <p><a href=/list>Take me to the list</a></p>
+</body>
